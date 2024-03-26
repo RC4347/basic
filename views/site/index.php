@@ -24,35 +24,35 @@ $this->title = 'Turin Register';
                     <img src="/images/15yillik.png" alt="logo"/>
                 </div>
                 <div class="inputDiv">
-                    <label htmlFor="firstname">Name</label>
+                    <label htmlFor="firstname">Name / Имя</label>
                     <div class="input flex">
                         <i class="fa fa-user bg-white" aria-hidden="true"></i>
                         <input name="firstname" type="text" id="name" required/>
                     </div>
                 </div>
                 <div class="inputDiv">
-                    <label htmlFor="lastname">Surname</label>
+                    <label htmlFor="lastname">Surname / Фамилия </label>
                     <div class="input flex">
                         <i class="fa bg-white fa-user" aria-hidden="true"></i>
                         <input name="lastname" type="text" id="surname" required/>
                     </div>
                 </div>
                 <div class="inputDiv">
-                    <label htmlFor="phoneNumber">Phone number</label>
+                    <label htmlFor="phoneNumber">Phone number / Номер тел.</label>
                     <div class="input flex">
                         <i class="fa bg-white fa-phone" aria-hidden="true"></i>
                         <input name="phoneNumber" type="text" id="phoneNumber" required/>
                     </div>
                 </div>
                 <div class="inputDiv">
-                    <label htmlFor="schoolNumber">School Number</label>
+                    <label htmlFor="schoolNumber">School Number / Школа</label>
                     <div class="input flex">
                         <i class="fa bg-white fa-university" aria-hidden="true"></i>
                         <input name="schoolNumber" type="text" id="schoolNumber" required/>
                     </div>
                 </div>
                 <div class="inputDiv">
-                    <label htmlFor="grade">Grade</label>
+                    <label htmlFor="grade">Grade / Класс</label>
                     <div class="input flex">
                         <i class="fa bg-white fa-university" aria-hidden="true"></i>
                         <input name="grade" type="text" id="grade" required/>
