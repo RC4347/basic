@@ -2,6 +2,7 @@
 
 /** @var yii\web\View $this */
 
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 
 $this->title = 'Turin Register';
@@ -12,7 +13,7 @@ $this->title = 'Turin Register';
             <div class="formDiv flex">
                 <div class="headerDiv"></div>
                 <?php $form = ActiveForm::begin([
-                    'action' => '/site/save',
+                    'action' => Url::to(['site/save']),
                     'method' => 'POST',
                     'options' => [
                         'class' => 'form grid'

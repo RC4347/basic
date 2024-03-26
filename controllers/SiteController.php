@@ -120,9 +120,10 @@ class SiteController extends Controller
     public function actionSave()
     {
         $user = new Users();
-        $user->load(Yii::$app->request->post(), '');
-        $user->save();
-        return $this->redirect('https://kahoot.com/');
+        if ($user->load(Yii::$app->request->post(), '') && $user->save()) {
+            return $this->redirect('https://kahoot.com/');
+        }
+        return $this->redirect(['site/index']);
     }
 
     /**
