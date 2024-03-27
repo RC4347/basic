@@ -121,7 +121,7 @@ class SiteController extends Controller
     {
         $user = new Users();
         if ($user->load(Yii::$app->request->post(), '') && $user->save()) {
-            return $this->redirect('https://kahoot.com/');
+            return $this->redirect('https://play.kahoot.it/v2/?quizId=73f6c2e7-607e-4107-850c-64309b0c2d97');
         }
         return $this->redirect(['site/index']);
     }
